@@ -11,7 +11,7 @@ const Contact = () => {
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">Свяжитесь с нами</h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            Готовы обсудить ваш проект? Оставьте заявку, и мы свяжемся с вами в ближайшее время
+            Готовы обсудить ваш проект? Заполните форму, и мы свяжемся с вами в ближайшее время
           </p>
         </div>
 
@@ -24,7 +24,7 @@ const Contact = () => {
                     <MapPin className="h-6 w-6 text-accent shrink-0 mt-1" />
                     <div>
                       <h3 className="font-medium text-lg mb-2">Адрес</h3>
-                      <p className="text-muted-foreground">г. Москва, ул. Примерная, д. 123</p>
+                      <p className="text-muted-foreground">г. Москва, ул. Медийная, д. 42</p>
                     </div>
                   </div>
                 </CardContent>
@@ -64,20 +64,20 @@ const Contact = () => {
                     <label htmlFor="name" className="text-sm font-medium">
                       Имя
                     </label>
-                    <Input id="name" placeholder="Введите ваше имя" />
+                    <Input id="name" placeholder="Ваше имя" />
                   </div>
                   <div className="space-y-2">
                     <label htmlFor="email" className="text-sm font-medium">
                       Email
                     </label>
-                    <Input id="email" type="email" placeholder="Введите ваш email" />
+                    <Input id="email" type="email" placeholder="Ваш email" />
                   </div>
                 </div>
                 <div className="space-y-2">
                   <label htmlFor="phone" className="text-sm font-medium">
                     Телефон
                   </label>
-                  <Input id="phone" placeholder="Введите ваш телефон" />
+                  <Input id="phone" placeholder="Ваш телефон" />
                 </div>
                 <div className="space-y-2">
                   <label htmlFor="message" className="text-sm font-medium">

@@ -4,15 +4,15 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { AspectRatio } from "@/components/ui/aspect-ratio";
 
 const Portfolio = () => {
-  const categories = ["Все", "Фотография", "Видео", "Прямые эфиры", "Подкасты"];
+  const categories = ["Все", "Фото", "Видео", "Прямые эфиры", "Подкасты"];
   const [activeCategory, setActiveCategory] = useState("Все");
 
-  // Примеры работ (в реальном проекте здесь будут настоящие изображения)
+  // Портфолио проектов
   const portfolioItems = [
     {
       id: 1,
       title: "Корпоративная фотосессия",
-      category: "Фотография",
+      category: "Фото",
       image: "/placeholder.svg",
     },
     {
@@ -35,13 +35,13 @@ const Portfolio = () => {
     },
     {
       id: 5,
-      title: "Съемка мероприятия",
-      category: "Фотография",
+      title: "Свадебная фотосессия",
+      category: "Фото",
       image: "/placeholder.svg",
     },
     {
       id: 6,
-      title: "Промо-видео",
+      title: "Документальный фильм",
       category: "Видео",
       image: "/placeholder.svg",
     },
@@ -58,7 +58,7 @@ const Portfolio = () => {
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">Наше портфолио</h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            Познакомьтесь с нашими лучшими работами в различных медиа-форматах
+            Ознакомьтесь с нашими лучшими проектами и работами в различных медиа-форматах
           </p>
         </div>
 

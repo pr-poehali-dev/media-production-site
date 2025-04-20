@@ -1,4 +1,4 @@
-import { Camera, Video, Tv, Mic, Scissors, Radio } from "lucide-react";
+import { Camera, Video, Tv, Mic, Scissors, Wifi } from "lucide-react";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 
 const Services = () => {
@@ -6,12 +6,12 @@ const Services = () => {
     {
       icon: <Camera className="h-10 w-10 text-accent" />,
       title: "Фотосъемка",
-      description: "Профессиональная съемка для всех типов проектов: от корпоративных портретов до рекламных кампаний."
+      description: "Профессиональная фотосъемка для всех типов мероприятий: от корпоративных портретов до рекламных кампаний."
     },
     {
       icon: <Video className="h-10 w-10 text-accent" />,
       title: "Видеосъемка",
-      description: "Создание высококачественного видеоконтента для бизнеса, рекламы, мероприятий и личных проектов."
+      description: "Создание качественного видеоконтента для бизнеса, рекламы, мероприятий и личных проектов."
     },
     {
       icon: <Scissors className="h-10 w-10 text-accent" />,
@@ -29,7 +29,7 @@ const Services = () => {
       description: "Запись, монтаж и продвижение подкастов с профессиональным звуковым оборудованием."
     },
     {
-      icon: <Radio className="h-10 w-10 text-accent" />,
+      icon: <Wifi className="h-10 w-10 text-accent" />,
       title: "Аэросъемка",
       description: "Захватывающие кадры с высоты птичьего полета с использованием современных дронов."
     }

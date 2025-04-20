@@ -7,10 +7,11 @@ const Hero = () => {
       <div className="container">
         <div className="flex flex-col items-center text-center max-w-4xl mx-auto">
           <h1 className="text-4xl md:text-6xl font-bold tracking-tight mb-6">
-            Превращаем идеи в <span className="text-gradient">визуальные истории</span>
+            Создаем <span className="text-gradient">визуальные истории</span> вашего бренда
           </h1>
           <p className="text-lg md:text-xl text-muted-foreground mb-8 max-w-2xl">
-            Профессиональная фото и видео съемка, монтаж видео, проведение прямых эфиров и подкастов для вашего бизнеса и личного бренда.
+            Профессиональная фото и видео съемка, монтаж, прямые эфиры и подкасты 
+            для вашего бизнеса и личного бренда
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <Button size="lg" className="gap-2">

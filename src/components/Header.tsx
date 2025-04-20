@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
-import { Menu, X, Camera, Video, Tv, Mic } from "lucide-react";
+import { Menu, X, Film, Camera } from "lucide-react";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -19,10 +19,10 @@ const Header = () => {
   ];
 
   return (
-    <header className="fixed w-full bg-background/95 backdrop-blur z-50 border-b">
+    <header className="fixed w-full bg-background/90 backdrop-blur-sm z-50 border-b">
       <div className="container flex justify-between items-center py-4">
         <Link to="/" className="flex items-center gap-2">
-          <Camera className="h-6 w-6 text-accent" />
+          <Film className="h-6 w-6 text-accent" />
           <span className="font-bold text-xl">МедиаГруп</span>
         </Link>
 
@@ -40,7 +40,7 @@ const Header = () => {
           <Button>Связаться</Button>
         </nav>
 
-        {/* Мобильное меню */}
+        {/* Мобильное меню кнопка */}
         <Button
           variant="ghost"
           size="icon"

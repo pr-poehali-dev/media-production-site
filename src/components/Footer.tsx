@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Camera, Instagram, Facebook, Twitter, Youtube } from "lucide-react";
+import { Film, Instagram, Facebook, Youtube, Twitter } from "lucide-react";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -10,7 +10,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div>
             <Link to="/" className="flex items-center gap-2 mb-4">
-              <Camera className="h-6 w-6" />
+              <Film className="h-6 w-6" />
               <span className="font-bold text-xl">МедиаГруп</span>
             </Link>
             <p className="text-primary-foreground/80 mb-6">
@@ -86,11 +86,6 @@ const Footer = () => {
                   Блог
                 </a>
               </li>
-              <li>
-                <a href="#" className="text-primary-foreground/80 hover:text-primary-foreground">
-                  Вакансии
-                </a>
-              </li>
             </ul>
           </div>
 
@@ -98,7 +93,7 @@ const Footer = () => {
             <h3 className="font-medium text-lg mb-4">Контакты</h3>
             <ul className="space-y-3">
               <li className="text-primary-foreground/80">
-                г. Москва, ул. Примерная, д. 123
+                г. Москва, ул. Медийная, д. 42
               </li>
               <li>
                 <a href="tel:+79991234567" className="text-primary-foreground/80 hover:text-primary-foreground">
@@ -111,7 +106,7 @@ const Footer = () => {
                 </a>
               </li>
               <li className="text-primary-foreground/80">
-                Пн-Пт: 9:00-18:00
+                Пн-Пт: 10:00-19:00
               </li>
             </ul>
           </div>
